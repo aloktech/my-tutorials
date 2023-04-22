@@ -5,12 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.imos</groupId>
-        <artifactId>my-tutorials</artifactId>
+        <artifactId>micro-services</artifactId>
         <version>1.0.0</version>
     </parent>
-    <packaging>pom</packaging>
 
-    <artifactId>micro-services</artifactId>
+    <artifactId>small-micro-service</artifactId>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
@@ -18,10 +17,4 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <modules>
-<!--        <module>GEHealthCare</module>-->
-<!--        <module>HeinikenSystem</module>-->
-        <!--<module>my-micro-service</module>-->
-        <module>small-micro-service</module>
-    </modules>
 </project>
